@@ -35,12 +35,12 @@
         if($resultado){
             while($row = $resultado->fetch_array()){
                 $id = $row['id'];
-                $Nombre = $row['Nombre'];
-                $Apellido =  $row['Apellido'];
-                $Correo =  $row['Correo'];
-                $Telefono =  $row['Telefono'];
-                $Ciudad =  $row['Ciudad'];
-                $Direccion =  $row['Direccion'];
+                $Nombre = $row['nombre'];
+                $Apellido =  $row['apellido'];
+                $Correo =  $row['correo'];
+                $Telefono =  $row['telefono'];
+                $Ciudad =  $row['ciudad'];
+                $Direccion =  $row['direccion'];
             ?>
 
             <tr>

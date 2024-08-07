@@ -1,9 +1,9 @@
 <?php 
 
 $dbhost ="localhost";
-$dbuser ="id17765470_bdcuniversity";
-$dbpass ="Ml)mN~@uCSi0@0_V";
-$dbname ="id17765470_bduniversity";
+$dbuser ="root";
+$dbpass ="123456";
+$dbname ="universitySearch";
 
 $conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname );
 if (!$conn)
