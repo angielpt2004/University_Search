@@ -1,0 +1,248 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: initial;
+  }
+
+body{
+
+  background-image: url(images/fondo2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+
+
+
+h2{
+    margin: 20px;
+    color: rgb(32, 31, 78);
+    font-size: 50px;
+}
+
+.cuestion{
+    margin: 12px;
+		font-size: 18px;
+}
+
+.contenedor{
+    background-color: rgb(255, 255, 255);
+		width: 800px;
+		border: 2px solid #1d1a49;
+		padding: 20px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.respuestas{
+    color: rgb(22, 22, 72);
+		font-size: 16px;
+}
+
+#btn{
+color: rgb(255, 255, 255);
+padding: 20px;
+margin-top: 16px;
+background-color: #1d1a49;
+border: 1px solid #1d1a49;
+margin-bottom: 10px;
+
+}
+
+
+#btn:hover{
+    color: rgb(255, 97, 97);
+    padding: 20px;
+    margin-top: 16px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ff6868;
+    cursor: pointer;
+    
+    }
+
+	.contenedor p{
+		font-size: 20px;
+	}
+
+
+	.contenedor p2{
+		font-size: 16px;
+		color: rgb(16, 15, 67);
+	}
+
+
+/*barrita*/
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    box-shadow: 0 4px 25px -22px black;
+    z-index: 2;
+}
+
+nav {
+    display: flex;
+    color: black;
+}
+/*botones*/
+.header-content{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  height: 70px;
+  display: flex;
+  padding: 5px;
+}
+
+.menu{
+    height: 80px;
+    
+}
+
+.menu nav{
+    height: 100%;
+}
+
+.menu nav ul{
+    height: 100%;
+    display: flex;
+    list-style: none;
+}
+
+.menu nav ul li {
+    height:100%;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.menu-selected::before{
+    content: ''; 
+    width: 100%;
+    height: 4px;
+    background-color: rgb(39, 51, 119);
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+.menu nav ul li a{
+    color: rgb(0, 0, 0)
+
+}
+.menu nav ul li a:hover{
+    color: rgb(60, 69, 119);
+}
+
+.menu.text-menu-selected{
+    color: black;
+}
+
+#icon-menu{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top: 16px;
+    font-size: 20px;
+    background: #d5d5da;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    display:none;
+    cursor: pointer;
+
+}
+
+#icon-menu:hover{
+    opacity: 0.8;
+}
+
+
+/*footer - pie de pagina-test*/
+
+.container-footer5{
+  width: 100%;
+  padding: 40px 0;
+  background: #f7f7f7;
+  margin-top: 100px;
+}
+
+.container-footer5 footer{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.container-footer5 footer .logo-footer5{
+  text-align: center;
+}
+
+.container-footer5 footer .logo-footer5 img{
+  width: 120px;
+}
+
+.container-footer5 footer .redes-footer5{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.container-footer5 footer .redes-footer5 .icon-redes-footer5{
+  font-size: 30px;
+  margin: 20px;
+  background: #ece8e8;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: #a2a2a2;
+}
+
+footer .redes-footer5 .fa-facebook-f:hover{
+  background: #41579A;
+  color: #fff;
+}
+
+footer .redes-footer5 .fa-google-plus-g:hover{
+  background: #DE4C34;
+  color: #fff;
+}
+
+footer .redes-footer5 .fa-instagram:hover{
+  background: linear-gradient(to top right, #FCDE30, #E9712A, #D23138, #AE4198, #7540A1, #5443A8);
+  color: #fff;   
+}
+
+.container-footer5 footer hr{
+  margin-top: 20px;
+  height: 2px;
+  color: black;
+}
+
+.container-footer5 h4{
+  text-align: center;
+  margin-top: 40px;
+  color: #8e8e8e;
+  font-weight: 500;
+  font-family: 'Roboto Mono', monospace;
+}

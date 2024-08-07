@@ -1,0 +1,266 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+	background-image: url(image/fondo2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	background-color: #fafafa;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	border-radius: 8px;
+	width: 960px;
+	margin-top: 100px;
+}
+
+.images {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.brr {
+	width: 250px;
+	margin: 24px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 36px;
+	color: rgb(255, 133, 133);
+	margin-bottom: 120px;
+}
+
+.image {
+	width: 200px;
+	margin: 24px;
+
+}
+
+.container form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 448px;
+	padding: 12px;
+	border-radius: 10px;
+	margin: 24px;
+}
+
+.form-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 12px;
+}
+
+
+.form-item label {
+	color: #000000;
+	padding: 4px;
+}
+
+.form-item input {
+	width: 360px;
+	height: 56px;
+	border-radius: 4px;
+	border-color: #ff6868;	
+}
+
+.form-item select {
+	width: 360px;
+	height: 56px;
+	border-radius: 4px;
+	border-color: rgb(255, 146, 138);	
+}
+
+
+.form-item input[type=submit] {
+	background-color: #2a63a3;
+	width: 160px;
+	height: 56px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	font-size: 16px;
+	border: none;
+	margin: 24px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.form-item input[type=submit]:hover {
+	color: rgb(255, 146, 138);
+	background-color: #f8f9fa;
+	border: solid 2px rgb(255, 146, 138);
+}
+
+
+.form-item input[placeholder] {
+	padding: 12px;
+	outline-color: rgb(255, 146, 138);
+	border: 2px solid #366da7;
+}
+
+.form-item select {
+	padding: 12px;
+	outline-color: rgb(255, 146, 138);
+	border: 2px solid #366da7;
+}
+
+/*base de datos*/
+
+table{
+	margin-top: 6%;
+	background-color: rgb(0,0,0);
+}
+
+caption{
+	padding: 16px;
+	font-size: 32px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(35, 34, 75);
+}
+
+td{
+	background-color: rgb(255, 255, 255);
+	color: rgb(255, 130, 130);
+	padding: 16px;
+	text-align: center;
+}
+
+th{
+	background-color: rgb(255, 255, 255);					
+	padding: 16px;
+	color: rgb(53, 56, 107);
+}
+
+/*fin de base de datos*/
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    box-shadow: 0 4px 25px -22px black;
+    z-index: 2;
+}
+
+nav {
+    display: flex;
+    color: black;
+}
+/*botones*/
+.header-content{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 80px;
+    display: flex;
+		padding: 5px;
+}
+
+.menu{
+    height: 80px;
+    
+}
+
+.menu nav{
+    height: 100%;
+}
+
+.menu nav ul{
+    height: 100%;
+    display: flex;
+    list-style: none;
+}
+
+.menu nav ul li {
+    height:100%;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-decoration:none;
+}
+
+.menu-selected::before{
+    content: ''; 
+    width: 100%;
+    height: 4px;
+    background-color: rgb(39, 51, 119);
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+.menu nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: initial;
+}
+
+.menu nav ul li a:hover{
+    color: rgb(60, 69, 119);
+}
+
+.menu.text-menu-selected{
+    color: black;
+}
+
+#icon-menu{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top: 16px;
+    font-size: 20px;
+    background: #d5d5da;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    display:none;
+    cursor: pointer;
+
+}
+
+#icon-menu:hover{
+    opacity: 0.8;
+}
+
+.gracias{
+    background-color: #fafafa;
+    height: 120px;
+    text-align: center;
+    width: 520px;; 
+    padding: 30px;
+    color: black;
+    border: 1px solid black;
+  } 
+  
+  h1{
+     color:#366da7;
+  }
+  

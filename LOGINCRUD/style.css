@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body{
+    background-image: url(images/fondo2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+
+input {
+width: 100%;
+background-color: #ffffff;
+padding: 10px;
+border: 2px solid rgb(35, 58, 121);
+border-radius: 8px;
+margin-bottom: 16px;
+font-size: 16px;
+color: rgb(35, 58, 121);
+}
+
+h2{
+font-size: 50px;
+text-align: center;
+margin-top: 60px;
+color: rgb(0, 0, 0);
+border-radius: 8px;
+}
+
+.form {
+width: 400px;
+background-color: rgb(255, 255, 255);
+padding: 30px;
+margin: auto;
+margin-top: 100px;
+
+}
+
+button {
+background-color: rgb(255, 154, 154);
+border: none;
+color: #f4f6ff;
+padding: 12px;
+margin: 14px 0px;
+width: 100%;
+font-size: 18px;
+border-radius: 8px ;
+
+}
+
+.image-form img{
+width: 120px;
+margin-right: 40%;
+margin-left: 32%;
+margin-bottom: 10%;
+}
+
+button:active{
+ background-color: rgb(50, 76, 131);;
+}
+
+button:hover{
+background-color: rgb(255, 255, 255);
+color: #4e4e8f;
+border: 1px solid #4e4e8f ;
+}
+
+
+
+
+
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    box-shadow: 0 4px 25px -22px black;
+    z-index: 2;
+}
+
+nav {
+    display: flex;
+    color: black;
+}
+/*botones*/
+.header-content{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 80px;
+    display: flex;
+	padding: 5px;
+}
+
+.menu{
+    height: 80px;
+    
+}
+
+.menu nav{
+    height: 100%;
+}
+
+.menu nav ul{
+    height: 100%;
+    display: flex;
+    list-style: none;
+}
+
+.menu nav ul li {
+    height:100%;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.menu-selected::before{
+    content: ''; 
+    width: 100%;
+    height: 4px;
+    background-color: rgb(39, 51, 119);
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+.menu nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: initial;
+}
+
+.menu nav ul li a:hover{
+    color: rgb(60, 69, 119);
+    text-decoration: initial;
+    
+}
+
+.menu.text-menu-selected{
+    color: black;
+}
+
+#icon-menu{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top: 16px;
+    font-size: 20px;
+    background: #d5d5da;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    display:none;
+    cursor: pointer;
+
+}
+
+#icon-menu:hover{
+    opacity: 0.8;
+}
